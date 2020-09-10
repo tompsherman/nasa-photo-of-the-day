@@ -9,6 +9,10 @@ max-width: 100%;
 padding: 2%;
 background-color: ${props => props.theme.black};
 color: ${props=> props.theme.white};
+
+&:hover{
+  color: ${props=> props.theme.secondaryColor}}
+
 `
 
 const Photo = ({apod, title}) => {
